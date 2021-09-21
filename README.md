@@ -5,7 +5,7 @@ This is my intreptation of the classic Atari 1979 game, Asteroids, but written u
 
 In the home Asteroids mainly shipped in cartridge form for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) but also for the [Vectrex](https://en.wikipedia.org/wiki/Vectrex) which was a vector display-based home video game console–the only one ever designed and released for the home market, so kind of special. 
 
-So I'm basing my version on the vertical style/display of the original Vectrx and arcade versions. I loved the Atari 2600 version but the vector graphics versions always looked best.
+So I'm basing my version on the vertical style/display of the original Vectrex and arcade versions. I loved the Atari 2600 version but the vector graphics versions always looked best.
 
 
 ![vectrex](https://user-images.githubusercontent.com/14840708/134128005-c300ec50-819c-4797-b0a1-20d94d206816.png)
