@@ -7,6 +7,7 @@ In the home Asteroids mainly shipped in cartridge form for the [Atari 2600](http
 
 So I'm basing my version on the vertical style/display of the original Vectrx version.
 
+
 ![vectrex](https://user-images.githubusercontent.com/14840708/134128005-c300ec50-819c-4797-b0a1-20d94d206816.png)
 
 ## What is Asteroids?
