@@ -3,9 +3,11 @@
 ## Introduction
 This is my intreptation of the classic Atari 1979 game, Asteroids, but written using modern programming languages. This is one of a series of re-writes of classic retro games from the late 1970s-early 1980s that I'm currently playing with. 
 
+In the home Asteroids mainly shipped in cartridge form for the [Atari 2600](https://en.wikipedia.org/wiki/Atari_2600) but also for the [Vectrex](https://en.wikipedia.org/wiki/Vectrex) which was a vector display-based home video game console–the only one ever designed and released for the home market, so kind of special. 
+
+So I'm basing my version on the vertical style/display of the original Vectrx version.
 
 ![800px-Vectrex-Console-Set](https://user-images.githubusercontent.com/14840708/134126644-27a8b088-fc45-4b3a-bf7e-e0a6e6dd2680.jpg)
-
 
 
 ## What is Asteroids?
