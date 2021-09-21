@@ -1,0 +1,78 @@
+/*
+Asteroids-JS
+This is a modern JS reboot of the classic 1979 Atari space shoot-em up game
+
+Copyright (C) 2021  Phil Spilsbury - <philspil66@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+/*main*/
+html, body {
+  background-color: #000;
+  color: #FFF;
+  font-family: monospace;
+  text-align: center;
+}
+.container {
+  min-height: 100%;
+  position: inline;
+}
+.footer {
+
+}
+a:link, a:visited, a:hover, a:active {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/*game*/
+#game {
+  max-height: 80%;
+  max-width: 80%;
+  border-color: #FFF;
+  border-style: solid;
+  border-width: 2px;
+}
+
+#game-frame {
+  padding: 7em 0 7em;
+}
+
+/*highscores*/
+h1 {
+  font-size: 6em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+table tr td {
+  font-size: 2em;
+}
+
+table tr:nth-child(even) {
+  background-color: #FFF;
+  color: #000;
+}
+
+table {
+  width: 50%;
+  padding-bottom: 100px;
+}
+
+.highscore-body {
+  height: 90%;
+}
