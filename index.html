@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Asteroids-JS
+This is a modern JS reboot of the classic 1979 Atari space shoot-em up game
+
+Copyright (C) 2021  Phil Spilsbury - <philspil66@gmail.com>
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<html>
+  <head>
+    <title>ASTEROIDS JS REBOOT</title>
+    <meta name="description" content="This is a modern JS reboot of the classic 1979 Atari space shoot-em up game">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="favicon" rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/game_loop.js"></script>
+    <script src="js/draw.js"></script>
+    <script src="js/alphabeth.js"></script>
+    <script src="js/game_screens.js"></script>
+    <script src="js/menu_screens.js"></script>
+    <!-- twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@philspil66" />
+    <meta name="twitter:creator" content="@philspil66" />
+    <meta name="twitter:title" content="ASTEROIDS JS REBOOT">
+    <meta name="twitter:description" content="This is a modern JS reboot of the classic 1979 Atari space shoot-em up game.">
+    <meta name="twitter:image" content="https://github.com/philspil66/Asteroids-JS/raw/main/assets/graphics/asteroids.png">
+    <!-- opengraph -->
+    <meta property="og:title" content="ASTEROIDS JS REBOOT" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/philspil66/Asteroids-JS" />
+    <meta property="og:image" content="https://github.com/philspil66/Asteroids-JS/raw/main/assets/graphics/asteroids.png" />
+    <meta property="og:image:width" content="625" />
+    <meta property="og:image:height" content="625" />
+    <meta property="og:description" content="This is a modern JS reboot of the classic 1979 Atari space shoot-em up game" />
+  </head>
+
+  <body onload="startAsteroids()">
+    <div class="container">
+      <div id="game-frame">
+      </div>
+      </div>
+      <div class="footer">
+        <p>
+          <a href="https://github.com/philspil66/Asteroids-JS">
+            <img src="assets/graphics/GitHub-logo-32px.png"></img><span>Check Asteroids-JS on GitHub!</span>
+          </a>
+        </p>
+        <p>
+          Copyright (c) 2021 Phil Spilsbury
+        </p>
+        <p>
+          This software is under a
+          <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">GNU GPL3</a> license. Have fun!
+          <span style="font-size: 2em; vertical-align: top;">🚀</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
