@@ -7,8 +7,7 @@ In the home Asteroids mainly shipped in cartridge form for the [Atari 2600](http
 
 So I'm basing my version on the vertical style/display of the original Vectrx version.
 
-![800px-Vectrex-Console-Set](https://user-images.githubusercontent.com/14840708/134126644-27a8b088-fc45-4b3a-bf7e-e0a6e6dd2680.jpg)
-
+![vectrex](https://user-images.githubusercontent.com/14840708/134128005-c300ec50-819c-4797-b0a1-20d94d206816.png)
 
 ## What is Asteroids?
 Asteroids is a space-themed multidirectional shooter arcade game designed by Lyle Rains and Ed Logg released in November 1979 by Atari, Inc. The player controls a single spaceship in an asteroid field which is periodically traversed by flying saucers. The object of the game is to shoot and destroy the asteroids and saucers, while not colliding with either, or being hit by the saucers' counter-fire. The game becomes harder as the number of asteroids increases.
