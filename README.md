@@ -1,8 +1,7 @@
 # Asteriods
 
-This is my intreptation of the classic 1979 game, Asteroids, but written using modern programming languages. This is one of a series of re-writes of classic retro games from the late 1970s-early 1980s that I'm currently playing with. 
-
 ## Introduction
+This is my intreptation of the classic 1979 game, Asteroids, but written using modern programming languages. This is one of a series of re-writes of classic retro games from the late 1970s-early 1980s that I'm currently playing with. 
 
 ## What is Asteroids?
 Asteroids is a space-themed multidirectional shooter arcade game designed by Lyle Rains and Ed Logg released in November 1979 by Atari, Inc. The player controls a single spaceship in an asteroid field which is periodically traversed by flying saucers. The object of the game is to shoot and destroy the asteroids and saucers, while not colliding with either, or being hit by the saucers' counter-fire. The game becomes harder as the number of asteroids increases.
