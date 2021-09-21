@@ -42,7 +42,6 @@ creditsScreen.draw = function () {
   writeCentered(500, "Copyright (C) 2021  Phil Spilsbury", 0.9);
 
   writeCentered(550, "esc - go back");
-  writeCentered(570, VERSION);
 };
 creditsScreen.update = function () {
   creditsScreen.asteroids.forEach(function (asteroid) {
@@ -69,9 +68,8 @@ startScreen.draw = function () {
   writeCentered(150, "HTML5/JS Reboot", 2.7);
   writeCentered(300, "PLAY", 2);
   writeCentered(350, "credits", 2);
-  writeCentered(500, "enter - go        esc - go back", 1);
+  writeCentered(500, "enter - Play Game      esc - go back", 1);
   writeCentered(520, "controls - arrows and spacebar", 1);
-  writeCentered(560, VERSION);
 };
 startScreen.update = function () {
   startScreen.arrow.update();
@@ -121,7 +119,6 @@ gameOverScreen.draw = function () {
   writeCentered(410, "Save score", 2);
   writeCentered(460, "play again", 2);
   writeCentered(510, "menu", 2);
-  writeCentered(570, VERSION);
 };
 gameOverScreen.update = function () {
   gameOverScreen.arrow.update();
@@ -180,7 +177,6 @@ highScoreScreen.draw = function () {
     writeText(320, 200 + 40 * i, value.score.toString(), 2, 2);
   }
   writeCentered(550, "esc - go back");
-  writeCentered(570, VERSION);
 };
 highScoreScreen.update = function () {
   highScoreScreen.asteroids.forEach(function (asteroid) {

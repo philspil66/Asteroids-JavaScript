@@ -19,8 +19,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 "use strict";
 
-var VERSION = "v1.0";
-
 function startAsteroids() {
   Game.start();
   if ('withCredentials' in new XMLHttpRequest() || typeof XDomainRequest !== "undefined") {
