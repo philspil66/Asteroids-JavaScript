@@ -73,7 +73,6 @@ function drawCircle(x, y, radius) {
   var color = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : VECTOR_COLOR;
 
   // setup style
-  //Game.context.font = "30px Arial"; //"atari_classic_chunkyregular"; 
   Game.context.lineWidth = width;
   Game.context.strokeStyle = color;
   // draw circle
