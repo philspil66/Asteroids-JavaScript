@@ -32,7 +32,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 html, body {
   background-color: #000;
   color: #FFF;
-  font-family: 'atari_classic_chunkyregular', monospace;
+  font-family: 'atari_classic_chunkyregular';
   text-align: center;
 }
 .container {
@@ -54,7 +54,7 @@ a:link, a:visited, a:hover, a:active {
   border-color: #FFF;
   border-style: solid;
   border-width: 2px;
-  font-family: 'atari_classic_chunkyregular', monospace;
+  font-family: 'atari_classic_chunkyregular';
 }
 
 #game-frame {
@@ -64,17 +64,17 @@ a:link, a:visited, a:hover, a:active {
 /*highscores*/
 h1 {
   font-size: 6em;
-  font-family: 'atari_classic_chunkyregular', monospace;
+  font-family: 'atari_classic_chunkyregular';
 }
 
 h2 {
   font-size: 3em;
-  font-family: 'atari_classic_chunkyregular', monospace;
+  font-family: 'atari_classic_chunkyregular';
 }
 
 table tr td {
   font-size: 2em;
-  font-family: 'atari_classic_chunkyregular', monospace;
+  font-family: 'atari_classic_chunkyregular';
 }
 
 table tr:nth-child(even) {

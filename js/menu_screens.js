@@ -33,9 +33,9 @@ creditsScreen.draw = function () {
   // draw board
   // add text
   writeCentered(50, "asteroids", 4);
-  writeCentered(100, "html5/JS reboot", 2);
+  writeCentered(100, "JS reboot", 2);
   writeText(50, 200, "This is a reboot of the classic 1979 Atari game", 1);
-  writeText(50, 220, "Asteroids, built in html5/JS. You can find more", 1);
+  writeText(50, 220, "Asteroids, built in JS. You can find more", 1);
   writeText(50, 240, "information about the project in it's github page:", 1);
   writeCentered(280, "https://github.com/philspil66/Asteroids-JS", 0.8);
   writeCentered(480, "This project is under a GNU GPL3 license. Have fun! ;)", 0.9);
@@ -65,7 +65,7 @@ startScreen.draw = function () {
   });
   startScreen.arrow.draw();
   writeCentered(80, "asteroids ", 5, 5);
-  writeCentered(150, "HTML5/JS Reboot", 2.7);
+  writeCentered(150, "JS Reboot", 2.7);
   writeCentered(300, "PLAY", 2);
   writeCentered(350, "credits", 2);
   writeCentered(500, "enter - Play Game      esc - go back", 1);
@@ -168,7 +168,7 @@ highScoreScreen.draw = function () {
     return asteroid.draw();
   });
   writeCentered(50, "asteroids", 4);
-  writeCentered(100, "html5/JS reboot", 2);
+  writeCentered(100, "JS reboot", 2);
   writeCentered(150, "high scores", 2);
   for (var i = 0; i < 8; i++) {
     if (highScoreScreen.scores[i] === undefined) break;
