@@ -25,7 +25,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
          url('../assets/fonts/atariclassicchunky-pxxp-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*main*/
@@ -60,7 +59,6 @@ a:link, a:visited, a:hover, a:active {
   padding: 7em 0 7em;
 }
 
-/*highscores*/
 h1 {
   font-size: 6em;
 }
@@ -81,8 +79,4 @@ table tr:nth-child(even) {
 table {
   width: 50%;
   padding-bottom: 100px;
-}
-
-.highscore-body {
-  height: 90%;
 }
