@@ -90,6 +90,7 @@ playScreen.draw = function () {
     drawCircle(Game.player.x, Game.player.y, playScreen.haloSize);
     playScreen.haloSize *= 0.90;
   }
+  writeCentered(570, "1979 Atari Inc", 1);
 };
 
 playScreen.update = function () {
