@@ -68,6 +68,7 @@ startScreen.draw = function () {
   writeCentered(350, "credits", 2);
   writeCentered(500, "enter - Play Game      esc - go back", 1);
   writeCentered(520, "controls - arrows and spacebar", 1);
+  writeCentered(570, "1979 Atari Inc", 1);
 };
 startScreen.update = function () {
   startScreen.arrow.update();
@@ -108,6 +109,7 @@ gameOverScreen.draw = function () {
   writeCentered(220, Game.score.score.toString(), 5);
   writeCentered(360, "play again", 2);
   writeCentered(410, "menu", 2);
+  writeCentered(570, "1979 Atari Inc", 1);
 };
 gameOverScreen.update = function () {
   gameOverScreen.arrow.update();
