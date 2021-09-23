@@ -19,7 +19,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 "use strict";
 
+// These are the positions of the game over menu items [horizontal,vertical]
 var gameOverPositions = [[170, 370], [230, 420]];
+// These are the positions of the initial game menu items  [horizontal,vertical]
 var startScreenPositions = [[230, 310], [170, 360]];
 
 creditsScreen.init = function () {
