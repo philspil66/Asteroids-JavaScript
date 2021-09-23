@@ -106,10 +106,6 @@ gameOverScreen.draw = function () {
   writeCentered(60, "GAME OVER", 5);
   writeCentered(140, 'YOUR SCORE', 3);
   writeCentered(220, Game.score.score.toString(), 5);
- // writeCentered(280, gameOverScreen.name, 5);
-  if (gameOverScreen.blink) {
-  //  writeCentered(330, "-".repeat(gameOverScreen.name === "" ? 4 : gameOverScreen.name.length * 4), 1);
-  }
   writeCentered(360, "play again", 2);
   writeCentered(410, "menu", 2);
 };
@@ -120,13 +116,9 @@ gameOverScreen.update = function () {
   });
   if (Game.keyTimeout > Date.now()) return;
   Game.keyTimeout = Date.now() + 150;
- // if (Key.isDown(8)) {
- //   gameOverScreen.name = gameOverScreen.name.substring(0, gameOverScreen.name.length - 1);
- // }
   if (Key.isDown(13)) {
     Game.beat1();
     Game.beat2();
-    //if (gameOverScreen.arrow.current === 0) gameOverScreen.postScore();
     if (gameOverScreen.arrow.current === 0) Game.changeState(playScreen);
     else if (gameOverScreen.arrow.current === 1) Game.changeState(startScreen);
   } else if (Key.isDown(27)) {
