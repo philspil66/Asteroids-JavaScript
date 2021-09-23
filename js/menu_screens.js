@@ -63,7 +63,6 @@ startScreen.draw = function () {
   });
   startScreen.arrow.draw();
   writeCentered(80, "asteroids ", 5, 5);
-  //writeCentered(150, "JS Reboot", 2.7);
   writeCentered(300, "PLAY", 2);
   writeCentered(350, "credits", 2);
   writeCentered(500, "enter - Play Game      esc - go back", 1);
