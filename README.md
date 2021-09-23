@@ -22,6 +22,11 @@ The objective of Asteroids is to destroy asteroids and saucers. The player contr
 
 ### Screenshots of gameplay from original 1979 Atari aracde version.
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/14840708/134503371-9f2c1efc-0228-4639-a9ff-0880e20aadb5.png" />
+  <img src="https://user-images.githubusercontent.com/14840708/134503386-0ea78636-8039-4700-a1e2-52a1f11aea96.png" />
+</p>
+
 ![654883-asteroids-arcade-screenshot-1-coin-1-play](https://user-images.githubusercontent.com/14840708/134503371-9f2c1efc-0228-4639-a9ff-0880e20aadb5.png)
 
 ![654884-asteroids-arcade-screenshot-game-starts](https://user-images.githubusercontent.com/14840708/134503386-0ea78636-8039-4700-a1e2-52a1f11aea96.png)
