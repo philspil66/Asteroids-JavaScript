@@ -30,7 +30,7 @@ For those players desiring high scores, destroying the small saucer is key. Reme
 - Also keep in mind that the small saucer can wrap shots so you may have to move out of danger.
 
 ### Scores Breakdown
-These are the scores you get for destroying the various asteriods and space ships in the game.
+These are the scores you get for destroying the various Asteroids and Saucers in the game.
 
 ![2021-09-27 21_26_24-Play Guide for Asteroids, the 1979 Classic Arcade Game](https://user-images.githubusercontent.com/14840708/134981004-d481f4e7-0643-43c5-901e-d96b32412797.png)
 
