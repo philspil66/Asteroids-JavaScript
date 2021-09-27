@@ -13,7 +13,7 @@ On the first few screens, you can sit in the middle and blast rocks to your hear
 
 - You can have 4 shots on the screen at any one time. This is useful for when you are blasting rocks at close range. You can pretty much drill them to dust.
 - Your shots "wrap around" the screen. This means any shot that goes past the edge of the screen will reappear on the opposite side traveling the same direction. The saucers also have "wrap around" shots.
-- 
+ 
 After 10,000 points, the small saucer becomes a permanent part of the game. You can no longer sit in one place since the small saucer is able to track your ship and take you out with the first or second shot.
 
 Use hyperspace only in very desperate situations. For example, if you have 4 asteroids coming at you at once, and there is nowhere to escape. Hyperspace will get your out of danger, but can possibly warp you into an even worse situation.
@@ -34,10 +34,4 @@ These are the scores you get for destroying the various asteriods and space ship
 
 ![2021-09-27 21_26_24-Play Guide for Asteroids, the 1979 Classic Arcade Game](https://user-images.githubusercontent.com/14840708/134981004-d481f4e7-0643-43c5-901e-d96b32412797.png)
 
-### Screenshots of gameplay from original 1979 Atari aracde version.
 
-![654883-asteroids-arcade-screenshot-1-coin-1-play](https://user-images.githubusercontent.com/14840708/134503371-9f2c1efc-0228-4639-a9ff-0880e20aadb5.png)
-
-![654884-asteroids-arcade-screenshot-game-starts](https://user-images.githubusercontent.com/14840708/134503386-0ea78636-8039-4700-a1e2-52a1f11aea96.png)
-
-![654885-asteroids-arcade-screenshot-many-small-asteroids](https://user-images.githubusercontent.com/14840708/134503411-61d5ff0d-5476-4fda-bee9-4e3bcd23fd68.png)
