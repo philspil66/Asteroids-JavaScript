@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // These are the positions of the game over menu items [horizontal,vertical]
 var gameOverPositions = [[170, 370], [230, 420]];
 // These are the positions of the initial game menu items  [horizontal,vertical]
-var startScreenPositions = [[230, 310], [160, 360]];
+var startScreenPositions = [[230, 310], [180, 360]];
 
 instructionsScreen.init = function () {
   instructionsScreen.asteroids = makeAsteroids(3, 0, 1);
@@ -38,6 +38,7 @@ instructionsScreen.draw = function () {
   writeCentered(170, "play guide", 3);
   writeCentered(300, "enter - Play Game      esc - go back", 1);
   writeCentered(320, "controls - arrows and spacebar", 1);
+
   writeCentered(570, "1979 Atari Inc", 1);
 };
 instructionsScreen.update = function () {
