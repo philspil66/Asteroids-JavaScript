@@ -22,29 +22,27 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // These are the positions of the game over menu items [horizontal,vertical]
 var gameOverPositions = [[170, 370], [230, 420]];
 // These are the positions of the initial game menu items  [horizontal,vertical]
-var startScreenPositions = [[230, 310], [170, 360]];
+var startScreenPositions = [[230, 310], [160, 360]];
 
-creditsScreen.init = function () {
-  creditsScreen.asteroids = makeAsteroids(3, 0, 1);
+instructionsScreen.init = function () {
+  instructionsScreen.asteroids = makeAsteroids(3, 0, 1);
 };
-creditsScreen.draw = function () {
+
+instructionsScreen.draw = function () {
   Game.context.clearRect(0, 0, Game.width, Game.height);
-  creditsScreen.asteroids.forEach(function (asteroid) {
+  instructionsScreen.asteroids.forEach(function (asteroid) {
     return asteroid.draw();
   });
-  // draw board
   // add text
   writeCentered(80, "asteroids", 4);
-  writeText(50, 200, "This is a reboot of the classic 1979 Atari game", 1);
-  writeText(50, 220, "Asteroids, built in HTML5/JS. You can find more", 1);
-  writeText(50, 240, "information about the project in it's github page:", 1);
-  writeCentered(280, "https://github.com/philspil66/Asteroids-JS", 0.8);
-  writeCentered(500, "Copyright (C) 2021  TRAXX SOFTWARE", 0.9);
-
+  writeCentered(150, "instructions", 3);
+  writeCentered(300, "enter - Play Game      esc - go back", 1);
+  writeCentered(520, "controls - arrows and spacebar", 1);
   writeCentered(550, "esc - go back");
+  writeCentered(570, "1979 Atari Inc", 1);
 };
-creditsScreen.update = function () {
-  creditsScreen.asteroids.forEach(function (asteroid) {
+instructionsScreen.update = function () {
+  instructionsScreen.asteroids.forEach(function (asteroid) {
     return asteroid.update();
   });
   if (Key.isDown(27)) {
@@ -66,7 +64,7 @@ startScreen.draw = function () {
   startScreen.arrow.draw();
   writeCentered(80, "asteroids ", 5, 5);
   writeCentered(300, "PLAY", 2);
-  writeCentered(350, "credits", 2);
+  writeCentered(350, "instructions", 2);
   writeCentered(500, "enter - Play Game      esc - go back", 1);
   writeCentered(520, "controls - arrows and spacebar", 1);
   writeCentered(570, "1979 Atari Inc", 1);
@@ -82,7 +80,7 @@ startScreen.update = function () {
     Game.beat1();
     Game.beat2();
     if (startScreen.arrow.current === 0) Game.changeState(playScreen);
-    else if (startScreen.arrow.current === 1) Game.changeState(creditsScreen);
+    else if (startScreen.arrow.current === 1) Game.changeState(instructionsScreen);
   }
 };
 

@@ -64,7 +64,7 @@ gameOverScreen.keyListener = window.addEventListener("keydown", function (event)
   }
 });
 var startScreen = {};
-var creditsScreen = {};
+var instructionsScreen = {};
 var highScoreScreen = {};
 
 // Sounds assets
