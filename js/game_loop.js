@@ -68,17 +68,17 @@ var creditsScreen = {};
 var highScoreScreen = {};
 
 // Sounds assets
-var extraShipURL = "assets/sounds/life.wav";
-var saucerSmallURL = "assets/sounds/ssaucer.wav";
-var saucerBigURL = "assets/sounds/lsaucer.wav";
+var extraShipURL = "assets/sounds/extra_life.wav";
+var saucerSmallURL = "assets/sounds/saucer_small.wav";
+var saucerBigURL = "assets/sounds/saucer_big.wav";
 var thrustURL = "assets/sounds/thrust.wav";
 var fireURL = "assets/sounds/fire.wav";
-var fireSaucerURL = "assets/sounds/sfire.wav";
-var bangSmallURL = "assets/sounds/explode3.wav";
-var bangMediumURL = "assets/sounds/explode2.wav";
-var bangLargeURL = "assets/sounds/explode1.wav";
-var beat1URL = "assets/sounds/thumphi.wav";
-var beat2URL = "assets/sounds/thumplo.wav";
+var fireSaucerURL = "assets/sounds/saucer_fire.wav";
+var bangSmallURL = "assets/sounds/explode_small.wav";
+var bangMediumURL = "assets/sounds/explode_medium.wav";
+var bangLargeURL = "assets/sounds/explode_large.wav";
+var beat1URL = "assets/sounds/wavy_beat1.wav";
+var beat2URL = "assets/sounds/wavy_beat2.wav";
 
 // sound factory
 function soundFactory(audio, overide, start, stop) {
