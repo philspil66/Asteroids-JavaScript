@@ -34,8 +34,8 @@ instructionsScreen.draw = function () {
     return asteroid.draw();
   });
   // add text
-  writeCentered(80, "asteroids", 4);
-  writeCentered(150, "play guide", 3);
+  writeCentered(80, "asteroids", 4, 3);
+  writeCentered(150, "play guide", 3, 3);
   writeCentered(300, "enter - Play Game      esc - go back", 1);
   writeCentered(320, "controls - arrows and spacebar", 1);
   writeCentered(520, "esc - go back to play", 1);
