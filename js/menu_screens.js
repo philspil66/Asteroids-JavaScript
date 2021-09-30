@@ -103,7 +103,7 @@ gameOverScreen.draw = function () {
   });
   gameOverScreen.arrow.draw();
   writeCentered(60, "GAME OVER", 5);
-  writeCentered(140, 'YOUR SCORE', 3);
+  writeCentered(160, 'YOUR SCORE', 3);
   writeCentered(220, Game.score.score.toString(), 5);
   writeCentered(360, "play again", 2);
   writeCentered(410, "menu", 2);
