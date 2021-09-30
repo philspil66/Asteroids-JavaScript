@@ -64,9 +64,9 @@ startScreen.draw = function () {
   });
   startScreen.arrow.draw();
   writeCentered(80, "asteroids ", 5, 5);
-  writeCentered(270, "PLAY", 2);
-  writeCentered(320, "play guide", 2);
-  writeCentered(450, "ONE COIN 1 PLAY", 2);
+  writeCentered(270, "PLAY", 2, 3);
+  writeCentered(320, "play guide", 2, 3);
+  writeCentered(450, "ONE COIN 1 PLAY", 2, 3);
   writeCentered(570, "1979 Atari Inc", 1);
 };
 startScreen.update = function () {
