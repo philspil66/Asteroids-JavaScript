@@ -63,7 +63,7 @@ startScreen.draw = function () {
     return asteroid.draw();
   });
   startScreen.arrow.draw();
-  writeCentered(80, "asteroids ", 5, 5);
+  writeCentered(80, "asteroids ", 5, 6);
   writeCentered(270, "PLAY", 2, 3);
   writeCentered(320, "play guide", 2, 3);
   writeCentered(450, "ONE COIN 1 PLAY", 2, 3);
