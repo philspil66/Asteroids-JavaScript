@@ -65,8 +65,7 @@ startScreen.draw = function () {
   writeCentered(80, "asteroids ", 5, 5);
   writeCentered(300, "PLAY", 2);
   writeCentered(350, "instructions", 2);
-  writeCentered(500, "enter - Play Game      esc - go back", 1);
-  writeCentered(520, "controls - arrows and spacebar", 1);
+  writeCentered(450, "ONE COIN 1 PLAY", 2);
   writeCentered(570, "1979 Atari Inc", 1);
 };
 startScreen.update = function () {
