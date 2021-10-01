@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // These are the positions of the game over menu items [horizontal,vertical]
 var gameOverPositions = [[170, 370], [230, 420]];
 // These are the positions of the initial game menu items  [horizontal,vertical]
-var startScreenPositions = [[230, 280], [180, 330]];
+var startScreenPositions = [[250, 280], [200, 330]];
 
 instructionsScreen.init = function () {
   instructionsScreen.asteroids = makeAsteroids(3, 0, 1);
