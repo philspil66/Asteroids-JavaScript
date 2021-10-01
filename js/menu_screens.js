@@ -40,7 +40,7 @@ instructionsScreen.draw = function () {
   writeCentered(320, "controls - arrows and spacebar", 1);
   writeCentered(520, "esc - go back to play", 1);
 
-  writeCentered(570, "1979 Atari Inc", 1);
+  writeCentered(610, "1979 Atari Inc", 1);
 };
 instructionsScreen.update = function () {
   instructionsScreen.asteroids.forEach(function (asteroid) {
@@ -67,7 +67,7 @@ startScreen.draw = function () {
   writeCentered(270, "PLAY", 2, 3);
   writeCentered(320, "play guide", 2, 3);
   writeCentered(450, "ONE COIN 1 PLAY", 2, 3);
-  writeCentered(570, "1979 Atari Inc", 1);
+  writeCentered(610, "1979 Atari Inc", 1);
 };
 startScreen.update = function () {
   startScreen.arrow.update();
@@ -108,7 +108,7 @@ gameOverScreen.draw = function () {
   writeCentered(220, Game.score.score.toString(), 5);
   writeCentered(360, "play again", 2);
   writeCentered(410, "menu", 2);
-  writeCentered(570, "1979 Atari Inc", 1);
+  writeCentered(610, "1979 Atari Inc", 1);
 };
 gameOverScreen.update = function () {
   gameOverScreen.arrow.update();
