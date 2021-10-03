@@ -36,8 +36,12 @@ instructionsScreen.draw = function () {
   // add text
   writeCentered(80, "asteroids", 4, 3);
   writeCentered(150, "play guide", 3, 3);
-  writeCentered(300, "enter - Play Game      esc - go back", 1);
-  writeCentered(320, "controls - arrows and spacebar", 1);
+
+  writeCentered(300, "enter - start Game", 1);
+  writeCentered(320, "arrows - navigation and thrust", 1);
+  writeCentered(340, "space - phaser", 1);
+  writeCentered(360, "H - Hyperspace jump", 1);
+
   writeCentered(520, "esc - go back to play", 1);
 
   writeCentered(610, "1979 Atari Inc", 1);
