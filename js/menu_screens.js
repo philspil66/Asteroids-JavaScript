@@ -38,9 +38,10 @@ instructionsScreen.draw = function () {
   writeCentered(150, "play guide", 3, 3);
 
   writeCentered(300, "enter - start Game", 1);
-  writeCentered(320, "arrows - navigation and thrust", 1);
-  writeCentered(340, "space bar - phaser", 1);
-  writeCentered(360, "H key - Hyperspace jump", 1);
+  writeCentered(320, "Left/Right arrows - rotate", 1);
+  writeCentered(340, "Up arrow - thrust", 1);
+  writeCentered(360, "space bar - phaser", 1);
+  writeCentered(380, "H key - Hyperspace jump", 1);
 
   writeCentered(520, "esc - go back to play", 1);
 
