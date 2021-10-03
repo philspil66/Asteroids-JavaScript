@@ -39,8 +39,8 @@ instructionsScreen.draw = function () {
 
   writeCentered(300, "enter - start Game", 1);
   writeCentered(320, "cursors - navigation and thrust", 1);
-  writeCentered(340, "space - phaser", 1);
-  writeCentered(360, "H - Hyperspace jump", 1);
+  writeCentered(340, "space bar - phaser", 1);
+  writeCentered(360, "H key - Hyperspace jump", 1);
 
   writeCentered(520, "esc - go back to play", 1);
 
