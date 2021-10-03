@@ -28,7 +28,7 @@ var playerKeys = {
   keyDown: 38,
   keyLeft: 37,
   keyRight: 39,
-  hyperSpace: 72
+  hyperSpace: 40
 };
 var BIG_SAUCER = 5;
 var SMA_SAUCER = 2.5;
