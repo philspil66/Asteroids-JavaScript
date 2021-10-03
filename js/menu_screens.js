@@ -70,7 +70,7 @@ startScreen.draw = function () {
   writeCentered(80, "asteroids ", 5, 6);
   writeCentered(270, "PLAY", 2, 3);
   writeCentered(320, "play guide", 2, 3);
-  writeCentered(450, "ONE COIN 1 PLAY", 2, 3);
+  writeCentered(450, "1 COIN 1 PLAY", 2, 3);
   writeCentered(610, "1979 Atari Inc", 1);
 };
 startScreen.update = function () {
