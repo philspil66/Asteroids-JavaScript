@@ -27,7 +27,8 @@ var playerKeys = {
   keyUp: 32,
   keyDown: 38,
   keyLeft: 37,
-  keyRight: 39
+  keyRight: 39,
+  hyperSpace: 72
 };
 var BIG_SAUCER = 5;
 var SMA_SAUCER = 2.5;
@@ -202,6 +203,14 @@ playScreen.update = function () {
       setTimeout(playScreen.spawnPlayer, 1000);
     }
   }
+
+  // Spawn new player when hyperspace button hit
+  if (Game.player.hyperSpace == true && !playScreen.interval) {
+    playScreen.interval = true;
+    Game.player.hidden = true;
+    setTimeout(playScreen.spawnPlayer, 50);
+  }
+
   // Add new life when reaches a score
   if (Game.score.score >= playScreen.newLifeAt) {
     playScreen.newLifeAt += NEW_LIFE_SCORE;

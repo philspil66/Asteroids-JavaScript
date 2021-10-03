@@ -353,6 +353,7 @@ var Ship = function (_BaseSprite) {
     _this5.keyDown = keys.keyDown;
     _this5.keyLeft = keys.keyLeft;
     _this5.keyRight = keys.keyRight;
+    _this5.hyperSpace = keys.hyperSpace;
     _this5.rotation = 0;
     _this5.speedX = 0;
     _this5.speedY = 0;
@@ -406,6 +407,10 @@ var Ship = function (_BaseSprite) {
           this.rotation += Key.isDown(this.keyRight) ? this.rotationSpeed : -this.rotationSpeed;
           this.rotation %= 2 * Math.PI;
           this.updateRotation();
+        };
+        if (Key.isDown(this.hyperSpace)) {
+          // Do Hyperspace jump
+          this.hyperSpace = true;
         };
       }
       // update shots

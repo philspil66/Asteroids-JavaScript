@@ -38,7 +38,7 @@ window.addEventListener('keyup', function (event) {
 }, false);
 window.addEventListener("keydown", function (event) {
   Key.onKeydown(event);
-  if ([32, 37, 38, 39, 40, 13].indexOf(event.keyCode) > -1) {
+  if ([32, 37, 38, 39, 40, 13, 46].indexOf(event.keyCode) > -1) {
     event.preventDefault();
   }
 }, false);
