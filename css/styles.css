@@ -41,6 +41,7 @@ html, body {
 .footer {
 
 }
+
 a:link, a:visited, a:hover, a:active {
   color: #FFF;
   text-decoration: underline;
@@ -52,7 +53,7 @@ a:link, a:visited, a:hover, a:active {
   max-width: 80%;
   border-color: #FFF;
   border-style: solid;
-  border-width: 2px;
+  border-width: 4px;
 }
 
 #game-frame {
