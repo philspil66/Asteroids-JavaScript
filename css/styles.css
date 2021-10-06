@@ -73,13 +73,6 @@ a:link, a:visited, a:hover, a:active {
     padding: 20px;
 }  
 
-#point-list .col1 { width:68px; }
-.table { margin:30px 0; }
-.row { width:90%; margin:0 auto; }
-.cols3 .col1, .cols3 .col2, .cols3 .col3, .cols2 .col1, .cols2 .col2 { width:100%; display:inline-block; }
-.col1, .col2, .col3 { padding:3px; } 
-.rowhead .col1 { font-weight:normal; width:100%; } .rowhead .col2, .rowhead .col3 { display:none; }
-
 h1 {
   font-size: 6em;
 }
