@@ -20,7 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 "use strict";
 
 // These are the positions of the game over menu items [horizontal,vertical]
-var gameOverPositions = [[190, 370], [250, 420]];
+var gameOverPositions = [[240, 370], [300, 420]];
 // These are the positions of the initial game menu items  [horizontal,vertical]
 var startScreenPositions = [[300, 280], [250, 330]];
 
