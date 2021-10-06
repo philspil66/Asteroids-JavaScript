@@ -46,7 +46,7 @@ window.addEventListener("keydown", function (event) {
 // Game object
 var Game = {
   fps: 60,
-  width: 650,
+  width: 750,
   height: 650,
   radius: 300,
   level: 1,
