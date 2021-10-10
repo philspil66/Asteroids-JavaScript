@@ -21,12 +21,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 function startAsteroids() {
   Game.start();
-  if ('withCredentials' in new XMLHttpRequest() || typeof XDomainRequest !== "undefined") {
-    /* supports cross-domain requests */
-    //Use IE-specific "CORS" code with XDR
-  } else {
-    //Time to retreat with a fallback or polyfill
-    $(".footer p:first").hide();
-    $(".footer p:first").before("\n      <p>\n        <h3>\n          This host does not support high-scores. Try:<br>\n          <a href=\"https://github.com/philspil66/Asteroids-JS/\">\n          asteroids-JS</a>\n        </h3>\n      </p>");
-  }
 }
